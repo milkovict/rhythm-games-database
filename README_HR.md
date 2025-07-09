@@ -1,5 +1,7 @@
 # Baza Podataka za Ritmičku Videoigru
 
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+
 Verzija ovog dokumenta na engleskom jeziku dostupna je [ovdje](./README.md).
 
 ## O Projektu
