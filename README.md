@@ -34,7 +34,7 @@ To set up the database locally:
 
 2.  **Create the schema and insert data:** Execute the entire `01_schema_and_inserts.sql` script. This will create all the necessary tables (`user`, `profile`, `beatmap`, `score`, `replay`, `friends`) and populate them with initial data.
     ```bash
-    psql -U your_username -d your_database -f sql_scripts/02_features_and_queries.sql
+    psql -U your_username -d your_database -f sql_scripts/01_schema_and_inserts.sql
     ```
 
 3.  **Add advanced logic:** Execute the logic-related parts (steps 9-14) from the `02_features_and_queries.sql` script to add constraints, indexes, procedures, and triggers to the database.
