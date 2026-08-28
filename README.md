@@ -4,6 +4,8 @@
 
 A comprehensive database project for a rhythm video game, developed as a seminar paper for the "Modern Database Systems" course at the Faculty of Applied Mathematics and Informatics in Osijek.
 
+[Seminar paper (PDF, Croatian)](seminar.pdf)
+
 ## About The Project
 
 This project models the backend database required to run an online rhythm game. It handles user authentication, score tracking, beatmap management, and social features like friendships.
