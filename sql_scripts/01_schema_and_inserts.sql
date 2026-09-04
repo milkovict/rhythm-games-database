@@ -37,7 +37,7 @@ CREATE TABLE beatmap (
     difficulty_name  VARCHAR(100)	NOT NULL,
     difficulty_rating NUMERIC(4,2),
     user_id          INTEGER		NOT NULL, 	-- user_id kreatora mape
-    CONSTRAINT fk_beatmap_creator FOREIGN KEY (user_id) REFERENCES user(user_id)
+    CONSTRAINT fk_beatmap_creator FOREIGN KEY (user_id) REFERENCES "user"(user_id)
 );
 
 
@@ -54,7 +54,7 @@ CREATE TABLE score (
     achieved_pp     INTEGER,
     user_id         INTEGER        NOT NULL,
     beatmap_id      INTEGER        NOT NULL,
-    CONSTRAINT fk_score_user FOREIGN KEY (user_id) REFERENCES user(user_id),
+    CONSTRAINT fk_score_user FOREIGN KEY (user_id) REFERENCES "user"(user_id),
     CONSTRAINT fk_score_beatmap FOREIGN KEY (beatmap_id) REFERENCES beatmap(beatmap_id)
 );
 
